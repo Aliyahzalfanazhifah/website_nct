@@ -1,0 +1,86 @@
+li{
+  list-style: none;
+}
+
+.Header {
+  background-color: #00b300;
+  height: 90px;
+}
+
+.logo {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-list ul li{
+  display: inline-block;
+  float: right;
+  padding: 35px 10px 35px 10px;
+  font-family: serif;
+}
+
+a {
+  text-align: center;
+  color: black ;
+  text-decoration: none;
+  font-family: garamond;
+  font-size: 1.2vw;
+}
+
+.header-list ul li a:hover{
+  background-color: #66ff66;
+  color: #e6ffe6;
+}
+
+ .main {
+   background-color: #80ff80;
+   height: 1200px;
+ }
+
+ .gambar{
+   padding-top: 50px;
+ }
+
+.teks p{
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.kata p{
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.footer{
+  background-color: #00b300;
+  height: 90px;
+}
+
+.sosmed a {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 10px;
+  float: left;
+}
+
+.sosmed img {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 30px;
+  float: left;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.banner{
+  font-size: 30px;
+}
